@@ -1,0 +1,74 @@
+body{
+    font-family: Rubik;
+    background: url("../img/line.png") 50%/cover no-repeat;
+    background-color: rgb(207, 236, 237);
+}
+h1{
+    color:white;
+    text-align: center;
+    background-color: rgb(117, 214, 92);
+    padding: 20px 20px;
+    border-radius: 50px;
+}
+h1:hover{
+    box-shadow:2px 4px 32px rgba(0, 0, 0, 0.12) ; 
+}
+h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+h3{
+    font-weight: normal;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 1170px;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    
+    width: 300px;
+    height: 300px;
+}
+p{
+    font-size: 24px;
+}
+li{
+    line-height: 30px;
+}
+a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(117, 214, 92);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+li:hover:nth-child(1){
+    color:rgb(212, 66, 95);
+}
+li:hover:nth-child(2){
+    color:rgb(231, 171, 74);
+}
+li:hover:nth-child(3){
+    color:rgb(221, 214, 79);
+}
+li:hover:nth-child(4){
+    color:rgb(117, 225, 158);
+}
+li:hover:nth-child(5){
+    color:rgb(110, 168, 230);
+}
